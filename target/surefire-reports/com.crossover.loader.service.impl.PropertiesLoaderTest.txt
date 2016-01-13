@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.crossover.loader.service.impl.PropertiesLoaderTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.092 sec - in com.crossover.loader.service.impl.PropertiesLoaderTest

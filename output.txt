@@ -1,0 +1,200 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building properties-loader 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ properties-loader ---
+[INFO] Deleting /home/charles/projects/scala/properties-loader/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ properties-loader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ properties-loader ---
+[INFO] Compiling 8 source files to /home/charles/projects/scala/properties-loader/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ properties-loader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ properties-loader ---
+[INFO] Compiling 1 source file to /home/charles/projects/scala/properties-loader/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19:test (default-test) @ properties-loader ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.crossover.loader.service.impl.PropertiesLoaderTest
+auth.endpoint.uri, String, https://authserver/v1/auth
+aws_access_key, String, AKIAJSF6XRIJNJTTTL3Q
+aws_account_id, Integer, 12345678
+aws_region_id, String, us-east-1
+aws_secret_key, String, pmqnweEYvdiw7cvCdTOES48sOUvK1rGvvctBsgsa
+hibernate.generate_statistics, String, true
+hibernate.show_sql, String, true
+jdbc_driver, String, com.mysql.jdbc.Driver
+jdbc_password, String, password123
+jdbc_url, String, jdbc:mysql://localhost/test
+jdbc_username, String, username123
+job.maxretry, Integer, 4
+job.timeout, Integer, 3600
+jpa.showsql, Boolean, false
+score.factor, String, 2.4
+sns.broadcast.topic_name, String, broadcast
+sns.broadcast.visibility_timeout, Integer, 30
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in com.crossover.loader.service.impl.PropertiesLoaderTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ properties-loader ---
+[INFO] Building jar: /home/charles/projects/scala/properties-loader/target/properties-loader-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (default) @ properties-loader ---
+[WARNING] While downloading org.apache.commons:commons-io:1.3.2
+  This artifact has been relocated to commons-io:commons-io:1.3.2.
+  https://issues.sonatype.org/browse/MVNCENTRAL-244
+
+
+[WARNING] While downloading org.apache.commons:commons-io:1.3.2
+  This artifact has been relocated to commons-io:commons-io:1.3.2.
+  https://issues.sonatype.org/browse/MVNCENTRAL-244
+
+
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/http/ already added, skipping
+[INFO] org/apache/http/impl/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.httpcomponents/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] Building jar: /home/charles/projects/scala/properties-loader/target/PropertiesLoader.jar
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/http/ already added, skipping
+[INFO] org/apache/http/impl/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.httpcomponents/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[WARNING] Configuration options: 'appendAssemblyId' is set to false, and 'classifier' is missing.
+Instead of attaching the assembly file: /home/charles/projects/scala/properties-loader/target/PropertiesLoader.jar, it will become the file for main project artifact.
+NOTE: If multiple descriptors or descriptor-formats are provided for this project, the value of this file will be non-deterministic!
+[WARNING] Replacing pre-existing project main-artifact file: /home/charles/projects/scala/properties-loader/target/properties-loader-0.0.1-SNAPSHOT.jar
+with assembly file: /home/charles/projects/scala/properties-loader/target/PropertiesLoader.jar
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ properties-loader ---
+auth.endpoint.uri, String, https://authserver/v1/auth
+aws_access_key, String, AKIAJSF6XRIJNJTTTL3Q
+aws_account_id, Integer, 12345678
+aws_region_id, String, us-east-1
+aws_secret_key, String, pmqnweEYvdiw7cvCdTOES48sOUvK1rGvvctBsgsa
+hibernate.generate_statistics, String, true
+hibernate.show_sql, String, true
+jdbc_driver, String, com.mysql.jdbc.Driver
+jdbc_password, String, password123
+jdbc_url, String, jdbc:mysql://localhost/test
+jdbc_username, String, username123
+job.maxretry, Integer, 4
+job.timeout, Integer, 3600
+jpa.showsql, String, false
+score.factor, String, 2.4
+sns.broadcast.topic_name, String, broadcast
+sns.broadcast.visibility_timeout, Integer, 30
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.887s
+[INFO] Finished at: Mon Nov 23 22:43:04 WAT 2015
+[INFO] Final Memory: 49M/484M
+[INFO] ------------------------------------------------------------------------
